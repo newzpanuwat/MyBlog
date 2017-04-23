@@ -18,6 +18,8 @@ group :production do
   gem 'pg'
 end
 
+gem 'rails_12factor', group: :production
+
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
